@@ -55,9 +55,6 @@ The generated files (`sbom.csv` and `sbom.json`) will contain all dependencies f
 
 ## Ideas for Future Features
 
-* Adding git commit column to show the latest commit of each repository.
-* Support additional Python dependency files: `Pipfile`, `poetry.lock`.
-* Support additional JavaScript lockfiles: `yarn.lock`.
 * Optional deduplication of dependencies across repositories.
 * Handle malformed dependency files gracefully and report warnings.
 * Include summary statistics: number of unique packages, most common versions, etc.
